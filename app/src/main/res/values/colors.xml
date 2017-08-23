@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_color">#d15bc3</color>
+    <color name="tab_text">#ef9ac0</color>
+    <color name="MyActionBarTextColor">#82ceef</color>
+
+    <color name="lentil_background_alpha">#59b0cf</color>
+
+
+    <item name="blue" type="color">#028bbe</item>
+    <item name="purple" type="color">#9b0ee1</item>
+    <item name="green" type="color">#6e8f0a</item>
+    <item name="orange" type="color">#e4a018</item>
+    <item name="red" type="color">#f52c2c</item>
+    <item name="darkblue" type="color">#048dba</item>
+    <item name="darkpurple" type="color">#b64be7</item>
+    <item name="darkgreen" type="color">#baf441</item>
+    <item name="darkorange" type="color">#e98513</item>
+    <item name="darkred" type="color">#e73838</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+</resources>

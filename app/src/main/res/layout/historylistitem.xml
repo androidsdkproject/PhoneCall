@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:paddingLeft="16dp"
+
+    android:paddingRight="16dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background_selector"
+        android:descendantFocusability="afterDescendants"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/firstname"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/circle"
+            android:fontFamily="sans-serif"
+            android:hint="B"
+            android:paddingLeft="8sp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/callername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:hint="Jio"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/callerphone"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_alignBaseline="@+id/firstname"
+            android:layout_alignBottom="@+id/firstname"
+            android:layout_toEndOf="@+id/callername"
+            android:layout_toRightOf="@+id/callername"
+            android:hint="9509371638" />
+
+
+        <ImageView
+            android:id="@+id/calltype"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_alignLeft="@+id/callername"
+            android:layout_alignStart="@+id/callername"
+            android:layout_below="@+id/callername"
+            android:src="@drawable/ic_call_made_black_18dp" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:src="@drawable/ic_call_black_24dp" />
+
+
+    </RelativeLayout>
+</FrameLayout>

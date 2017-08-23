@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/callhistory"
+        android:title="Call History"
+        />
+    <item
+        android:id="@+id/clear"
+        android:title="Clear Frequent"
+        />
+    <item
+        android:id="@+id/newcontact"
+        android:title="New Contact"
+        />
+    <item
+        android:id="@+id/blacklist"
+        android:title="Blacklist"
+        />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        />
+
+
+</menu>
